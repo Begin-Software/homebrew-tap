@@ -1,26 +1,26 @@
 class Plop < Formula
   desc "Put a file on the web. File hosting for AI coding agents."
   homepage "https://plop.so"
-  version "0.1.20260328185729"
+  version "0.1.20260328185939"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185729/plop-darwin-arm64"
-      sha256 "b42c62065d63f133111f01171538dbd69f38f7d911b254fd4d8b1fef435ff4da"
+      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185939/plop-darwin-arm64"
+      sha256 "007d19be0756bfe57b242544875cfdd0cae47c469f5642bdb6c9dfabe110488c"
     else
-      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185729/plop-darwin-x64"
-      sha256 "02d6f099135a80f72188dd7cbb53ad299418c26d2ef08e38951066c6812fe710"
+      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185939/plop-darwin-x64"
+      sha256 "48744965f2465e51d02e351c79453f1fb1eba632772f711e0d059c42822fbf6f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185729/plop-linux-arm64"
-      sha256 "0dc19333ec9b1a3ba70c53232f0f98ca5216ba4b32228cf73223db55f29c76e5"
+      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185939/plop-linux-arm64"
+      sha256 "cb34f5dd74ad6a666773269553fab1649d02ddea064369ed93e89ad40f17d26c"
     else
-      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185729/plop-linux-x64"
-      sha256 "1b935d2498c07845be2c018c807bd7920e4e139af047a7b4b9ad71cf9e21205b"
+      url "https://github.com/Begin-Software/plop-cli/releases/download/v0.1.20260328185939/plop-linux-x64"
+      sha256 "714d3e430ee3c6d7258515466a0fcf3cf83c5e248eddbae8dddb90ae0d31f627"
     end
   end
 
